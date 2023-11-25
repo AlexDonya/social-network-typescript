@@ -1,0 +1,15 @@
+.profile {
+    padding: 10px;
+}
+
+.wideImgContainer {}
+
+.wideImg {
+    width: 100%;
+    height: 100%;
+}
+
+.profileContainer {
+    display: flex;
+    justify-content: space-around;
+}

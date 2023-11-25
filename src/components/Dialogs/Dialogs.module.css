@@ -1,0 +1,39 @@
+/* Dialogs.jsx component */
+.dialogs {
+    padding: 10px;
+}
+
+.dialogsContainer {
+    display: flex;
+}
+
+.dialogsContainer div {
+    flex: 1 1 auto;
+}
+
+.dialogsElements {
+    margin: 50px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.dialogsElContainer {
+    margin: 10px;
+}
+
+.dialogsElContainer>a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.dialogsElContainer>a.active {
+    color: white;
+}
+
+.dialogsElContainer>a:hover {
+    color: white;
+}
